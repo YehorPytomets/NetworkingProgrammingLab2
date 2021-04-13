@@ -10,3 +10,4 @@ printf "<!DOCTYPE html>
 </body>
 </html>
 " "$1" > index.html
+echo "HTML created."

@@ -52,7 +52,7 @@ public class Server {
             headers.add(header);
         }
 
-        var accessLog = format("Client %s, method %s, path %s, name %s, version %s, host %s, headers %s",
+        var accessLog = format("Client %s\n, method %s\n, path %s\n, name %s\n, version %s\n, host %s\n, headers %s\n",
                 socket.toString(), method, path, name, version, host, headers.toString());
         System.out.println(accessLog);
 
